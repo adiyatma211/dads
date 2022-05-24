@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('places');
+    return view('contact');
 });
 
 Auth::routes();
